@@ -1,0 +1,27 @@
+/*
+ * @author Robert C. Duvall
+ */
+
+/*
+ * VERY basic styling for this page.
+   Define styles to be applied within JavaScript using CSS
+   rather than applyting them directly to HTML elements.
+*/
+body {
+    background-image: url("../images/green.jpg");
+}
+
+h1 {
+    color: grey;
+    border-bottom: 1px solid black;
+}
+
+a {
+    color: darkorange;
+}
+
+/* Set by JavaScript */
+.link {
+    list-style: square;
+    color: cyan;
+}
